@@ -2,10 +2,12 @@
 #### By Sailash
 
 ## MongoDb Python Connection
-    * Install required libraries
-    * Import required libraries
-    * Create MongoClient object, then specify a connection URL with the correct ip address and the name of the database you want to create.
-    * MongoDB will create the database if it does not exist, and make a connection to it.
+   * Install required libraries.
+   * Import required libraries.
+   * To Create MongoClient object, pass the IP address or url of mongodb server and port number as argument to MongoClient class.
+   * Pass database name as key for MongoClient object.
+   * MongoDB will connect to the database if exists or create the database, and make a connection to it.
+
 
 ## Import Library
 1. Json
