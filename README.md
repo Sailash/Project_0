@@ -8,13 +8,13 @@
     * Pass database name as key for MongoClient object.
     * MongoDB will connect to the database if exists or create the database, and make a connection to it.
 
-## Import Library
+## Imported Library
 1. Json
     * Read the data and convert to valied Json formate
 2. pymongo
     * Tool for interacting with MongoDB database from Python
 
-### PyMongo And MySQL Operations
+## PyMongo And MySQL Operations
 1. find()
     * find() method is used to select documents that satisfies the criteria entered in a collection and return a cursor to the selected documents.
 2. find_one()
